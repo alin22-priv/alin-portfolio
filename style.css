@@ -187,11 +187,10 @@ section {
 
 .section__text__p1 {
   text-align: center;
-  font-size: 1.75rem;
 }
 
 .section__text__p2 {
-  font-size: 0.75rem;
+  font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
@@ -266,7 +265,15 @@ section {
 
 #about {
   position: relative;
+  margin-bottom: 10rem; /* Adjust as needed */
 }
+
+.titles {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5rem; /* Adjust th value as needed */
+}
+
 
 .about-containers {
   gap: 2rem;
@@ -291,7 +298,7 @@ section {
 .arrow {
   position: absolute;
   right: -5rem;
-  bottom: -1.5rem;
+  bottom: 2.5rem;
 }
 
 .details-container {
@@ -318,6 +325,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+  margin-top: 2rem;
   position: relative;
 }
 
@@ -332,12 +340,11 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 0;
 }
 
 .article-container {
   display: flex;
-  text-align: center;
+  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
@@ -347,7 +354,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: left;
+  justify-content: space-around;
   gap: 0.5rem;
 }
 
@@ -388,7 +395,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
